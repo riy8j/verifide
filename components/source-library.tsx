@@ -8,7 +8,7 @@ export function SourceLibrary() {
       <div className="mx-auto max-w-6xl px-4 py-20 md:px-6 md:py-28">
         <SectionHeading
           id="library-title"
-          index="06"
+          index="07"
           eyebrow="Source library"
           title="Read the primary sources"
           description="The full list of studies and reports this site draws on for its evidence. Each opens the original publication in a new tab."

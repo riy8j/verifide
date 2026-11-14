@@ -22,7 +22,7 @@ export function Methodology() {
       <div className="mx-auto max-w-6xl px-4 py-20 md:px-6 md:py-28">
         <SectionHeading
           id="method-title"
-          index="07"
+          index="08"
           eyebrow="Methodology"
           title="An open, correctable record"
           description="Provenance is a public repository. Anyone can audit the sources, challenge a rating, or add a dataset that is missing."

@@ -49,7 +49,7 @@ export function ModelLens() {
       <div className="mx-auto max-w-6xl px-4 py-20 md:px-6 md:py-28">
         <SectionHeading
           id="model-title"
-          index="04"
+          index="05"
           eyebrow="Inside the model"
           title="What the model is actually doing"
           description="A language model is a next-word probability machine. Toggle between a clean and a poisoned training corpus to see how repeated disinformation shifts what the model is likely to say next."

@@ -8,7 +8,7 @@ export function DomainWatchlist() {
       <div className="mx-auto max-w-6xl px-4 py-20 md:px-6 md:py-28">
         <SectionHeading
           id="watchlist-title"
-          index="03"
+          index="04"
           eyebrow="Site watchlist"
           title="The sites and tactics aimed at AI crawlers"
           description="Some disinformation is no longer written for people at all. It is mass-produced so that crawlers ingest it and models repeat it. These are documented patterns, each linked to the original research or reporting."

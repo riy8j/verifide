@@ -2,6 +2,7 @@ import { DomainWatchlist } from '@/components/domain-watchlist'
 import { Evidence } from '@/components/evidence'
 import { SourceLibrary } from '@/components/source-library'
 import { Hero } from '@/components/hero'
+import { LinkChecker } from '@/components/link-checker'
 import { Methodology } from '@/components/methodology'
 import { ModelLens } from '@/components/model-lens'
 import { PipelineExplorer } from '@/components/pipeline-explorer'
@@ -16,6 +17,7 @@ export default function Page() {
       <main>
         <Hero />
         <PipelineExplorer />
+        <LinkChecker />
         <SourceTracker />
         <DomainWatchlist />
         <ModelLens />

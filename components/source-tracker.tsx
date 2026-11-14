@@ -30,7 +30,7 @@ export function SourceTracker() {
       <div className="mx-auto max-w-6xl px-4 py-20 md:px-6 md:py-28">
         <SectionHeading
           id="sources-title"
-          index="02"
+          index="03"
           eyebrow="Source tracker"
           title="The datasets models are trained on"
           description="Each entry records who built the dataset, how it was filtered, which models used it, and the specific ways disinformation can slip through. Risk ratings reflect exposure to unvetted web content and auditability—not a judgment of the maintainers."

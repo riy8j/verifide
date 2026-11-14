@@ -61,7 +61,7 @@ export function Evidence() {
       <div className="mx-auto max-w-6xl px-4 py-20 md:px-6 md:py-28">
         <SectionHeading
           id="evidence-title"
-          index="05"
+          index="06"
           eyebrow="The evidence"
           title="What the research actually shows"
           description="Every figure below comes from a published study, report, or institutional analysis. Click any source line to read the original and check the number yourself."
