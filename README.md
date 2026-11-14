@@ -8,6 +8,7 @@ An open-source website that tracks the datasets and websites used to train AI mo
 - **Source tracker** — searchable, filterable catalog of training datasets (Common Crawl, C4, FineWeb, WebText, Wikipedia, The Pile, Dolma, LAION-5B, The Stack, undisclosed proprietary mixes) with risk ratings, filtering methods, and citations.
 - **Site watchlist** — documented tactics aimed at AI crawlers, such as "LLM grooming" networks, AI content farms, and expired-domain poisoning.
 - **Inside the model** — an interactive next-token probability demo comparing a clean and a poisoned corpus.
+- **Link checker** — displays matching published fact-checks and their reviewers' ratings in the app.
 
 ## Contributing
 
@@ -25,6 +26,10 @@ Risk ratings reflect exposure to unvetted web content and auditability, not the 
 pnpm install
 pnpm dev
 ```
+
+The link checker uses the [Google Fact Check Tools API](https://developers.google.com/fact-check/tools/api) from a server route. Enable the API in Google Cloud, create an API key, and set it as `GOOGLE_FACT_CHECK_API_KEY` in `.env.local` for local development and in the Vercel project's environment variables for deployment. Keep the key server-side; do not prefix it with `NEXT_PUBLIC_`.
+
+The checker searches the claim text entered by the user. It does not fetch the article URL or infer an outlet-wide bias rating; fact-check ratings belong to the reviewers shown in the results.
 
 Built with Next.js, Tailwind CSS, and TypeScript.
 
