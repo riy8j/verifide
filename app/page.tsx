@@ -1,4 +1,6 @@
 import { DomainWatchlist } from '@/components/domain-watchlist'
+import { Evidence } from '@/components/evidence'
+import { SourceLibrary } from '@/components/source-library'
 import { Hero } from '@/components/hero'
 import { Methodology } from '@/components/methodology'
 import { ModelLens } from '@/components/model-lens'
@@ -17,6 +19,8 @@ export default function Page() {
         <SourceTracker />
         <DomainWatchlist />
         <ModelLens />
+        <Evidence />
+        <SourceLibrary />
         <Methodology />
       </main>
       <SiteFooter />
